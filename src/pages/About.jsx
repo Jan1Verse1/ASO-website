@@ -1,5 +1,6 @@
 import { expertise, credentials } from '../data/content.js'
 import officeBuilding from '../assets/images/office-building.jpg'
+import { credentialLogos } from '../data/logos.js'
 
 function About() {
   return (
@@ -84,8 +85,12 @@ function About() {
           <div className="grid grid-cols-2 gap-x-10 gap-y-7 max-[860px]:grid-cols-1">
             {credentials.map((c) => (
               <div className="flex items-center gap-4 pb-5 border-b border-border" key={c.name}>
-                <div className="shrink-0 w-14 h-14 rounded-full bg-bg-soft border border-border flex items-center justify-center font-bold text-[13px] text-blue-dark">
-                  {c.initials}
+                <div className="shrink-0 w-14 h-14 rounded-full bg-bg-soft border border-border flex items-center justify-center p-2">
+                  <img
+                    src={credentialLogos[c.initials]}
+                    alt={`${c.name} logo`}
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h4 className="font-body text-[15px] font-bold text-ink mb-1 m-0">{c.name}</h4>

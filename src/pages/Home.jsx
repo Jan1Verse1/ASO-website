@@ -48,22 +48,27 @@ function Home() {
         </div>
       </section>
 
-      <section
-        className="relative overflow-hidden bg-bg-soft border-b border-border py-7"
-        style={{
-          maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
-          WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
-        }}
-      >
-        <div className="flex w-max items-center gap-16 animate-[marquee-ltr_28s_linear_infinite]">
-          {[...credentials, ...credentials].map((c, index) => (
-            <img
-              key={`${c.name}-${index}`}
-              src={credentialLogos[c.initials]}
-              alt={c.name}
-              className="h-10 w-auto object-contain shrink-0"
-            />
-          ))}
+      <section className="bg-bg-soft border-b border-border py-7">
+        <p className="mb-4 text-center font-semibold text-[13px] tracking-[0.14em] uppercase text-blue">
+          Endorsed by Nigeria's Regulatory Boards
+        </p>
+        <div
+          className="relative overflow-hidden"
+          style={{
+            maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+            WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+          }}
+        >
+          <div className="flex w-max items-center gap-16 animate-[marquee-rtl_28s_linear_infinite]">
+            {[...credentials, ...credentials].map((c, index) => (
+              <img
+                key={`${c.name}-${index}`}
+                src={credentialLogos[c.initials]}
+                alt={c.name}
+                className="h-10 w-auto object-contain shrink-0"
+              />
+            ))}
+          </div>
         </div>
       </section>
 
