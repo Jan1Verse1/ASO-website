@@ -36,18 +36,16 @@ function About() {
               Principal Partner, ASO Estate Surveyors &amp; Valuers
             </p>
             <p className="text-text-muted">
-              Abdul Samuel leads ASO with expertise spanning general practice, property
-              valuation, facility management, and investment advisory. He is adept at guiding
-              clients through the critical decisions involved in acquiring, leasing, and
-              managing real estate assets, and has built strong capabilities in overseeing
-              building operations — ensuring functionality, safety, and efficiency, particularly
-              for commercial and industrial properties.
+           Abdul Samuel Ojo, MNIVS, RSV, RFM is the Lead Consultant of ASO Consulting, with over a decade of experience in estate surveying and valuation, property and facility management, and real estate investment advisory. He specializes in asset valuation, property management, lease advisory, investment analysis, and facility management, helping clients make informed decisions that maximize the value of their real estate assets.
             </p>
             <p className="text-text-muted">
-              Since 2003, he has been mentored by FNIVS, RSV Adefila Kola, the principal
-              partner at Adefila &amp; Partners, a distinguished estate surveying and real
-              estate services firm — a relationship that continues to shape ASO's standards of
-              professionalism and client service.
+          Since 2012, he has trained and worked under the mentorship of RSV Adefila Kola, FNIVS, Principal Partner of Adefila & Partners, where he gained extensive practical experience in professional real estate practice.
+            </p>
+               <p className="text-text-muted">
+         Mr. Ojo is a Member of the Nigerian Institution of Estate Surveyors and Valuers (MNIVS) and is affiliated with the Association of Facility Management Practitioners of Nigeria (AFMPN) and other professional bodies. Beyond his professional practice, he is an active member of Lions Clubs International and served as President of Yaba Lions Club, demonstrating his commitment to leadership, community service, and professional excellence.
+            </p>
+               <p className="text-text-muted">
+         Through ASO Consulting, he remains dedicated to delivering innovative, client-focused real estate solutions with integrity, diligence, and professionalism.
             </p>
           </div>
         </div>
@@ -106,3 +104,11 @@ function About() {
 }
 
 export default About
+
+
+
+
+
+
+
+

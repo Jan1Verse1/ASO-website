@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { services, credentials, portfolioProjects } from '../data/content.js'
 import { credentialLogos } from '../data/logos.js'
+import { properties } from '../data/properties.js'
 import heroSkyline from '../assets/images/hero-skyline.jpg'
 import officeBuilding from '../assets/images/office-building.jpg'
 import houseExterior from '../assets/images/house-exterior.jpg'
@@ -21,15 +22,16 @@ function Home() {
               Estate Surveyors &amp; Valuers
             </span>
             <h1 className="text-white text-[clamp(36px,5vw,54px)] mb-5">
-              Trusted property expertise,
+              Diligent Real Estate Expertise  with Professional Excellence
               <br />
-              delivered with precision.
+           
             </h1>
             <p className="text-[#c7c8d3] text-[17px] max-w-[560px]">
-              ASO is a Nigerian estate surveying and valuation firm helping individuals and
-              businesses make confident decisions about their property assets — from valuation
-              and facility management to investment advisory.
+ASO Consulting is a firm of Estate Surveyors and Valuers dedicated to delivering reliable, innovative, and value-driven real estate solutions. We combine professional expertise, industry knowledge, and precision to provide tailored services in valuation, property management, facility management, and real estate advisory for individuals, businesses, financial institutions, and government agencies.
             </p>
+             <span className="mb-3 inline-block font-semibold text-[13px] tracking-[0.14em] uppercase text-[#9db0ff]">
+              ASO Consulting – Diligent Hands for Excellence.
+            </span>
             <div className="flex gap-4 mt-8 flex-wrap">
               <Link
                 to="/services"
@@ -125,6 +127,50 @@ function Home() {
       </section>
 
       <section className="py-22">
+        <div className="mx-auto w-full max-w-site px-6">
+          <div className="max-w-[640px] mb-12 mx-auto text-center">
+            <span className="mb-3 inline-block font-semibold text-[13px] tracking-[0.14em] uppercase text-blue">
+              Current Listings
+            </span>
+            <h2>Properties for sale &amp; rent</h2>
+          </div>
+          <div className="grid grid-cols-3 gap-6 max-[960px]:grid-cols-1">
+            {properties.map((property) => (
+              <div className="border border-border rounded-lg overflow-hidden" key={property.id}>
+                <div
+                  className="relative h-44 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${property.image})` }}
+                  aria-hidden="true"
+                >
+                  <span
+                    className={`absolute top-3 left-3 text-[11px] font-semibold uppercase tracking-[0.06em] px-2.5 py-1 rounded text-white ${
+                      property.type === 'For Sale' ? 'bg-blue-dark' : 'bg-green'
+                    }`}
+                  >
+                    {property.type}
+                  </span>
+                </div>
+                <div className="p-5">
+                  <h3 className="text-lg mt-0 mb-1">{property.title}</h3>
+                  <p className="text-text-muted text-sm m-0 mb-2">{property.location}</p>
+                  <p className="text-text-muted text-[14.5px] m-0 mb-3">{property.summary}</p>
+                  <p className="font-semibold text-blue-dark m-0">{property.price}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="flex justify-center mt-10">
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center gap-2 font-semibold text-[15px] px-7 py-3.5 rounded border border-ink text-ink transition-colors duration-200 hover:bg-ink hover:text-white"
+            >
+              Enquire About a Property
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-22 bg-bg-soft">
         <div className="mx-auto w-full max-w-site px-6">
           <div className="max-w-[640px] mb-12 mx-auto text-center">
             <span className="mb-3 inline-block font-semibold text-[13px] tracking-[0.14em] uppercase text-blue">

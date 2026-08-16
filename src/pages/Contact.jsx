@@ -44,19 +44,19 @@ function Contact() {
               <h3 className="font-body text-[13px] font-bold tracking-[0.06em] uppercase text-blue-dark mb-1.5">
                 Office Address
               </h3>
-              <p className="m-0 text-text text-base">[Street Address], [City], Nigeria</p>
+              <p className="m-0 text-text text-base">Block 57, LSDPC Estate, Glover Street, Adekunle, Yaba, Lagos.</p>
             </div>
             <div>
               <h3 className="font-body text-[13px] font-bold tracking-[0.06em] uppercase text-blue-dark mb-1.5">
                 Phone
               </h3>
-              <p className="m-0 text-text text-base">+234 000 000 0000</p>
+              <p className="m-0 text-text text-base">+234 810 395 5455, +234 805 741 5400</p>
             </div>
             <div>
               <h3 className="font-body text-[13px] font-bold tracking-[0.06em] uppercase text-blue-dark mb-1.5">
                 Email
               </h3>
-              <p className="m-0 text-text text-base">info@aso-surveyors.com</p>
+              <p className="m-0 text-text text-base">asopropertiescustodian@gmail.com; asoconsulting@aso.co.ng </p>
             </div>
             <div>
               <h3 className="font-body text-[13px] font-bold tracking-[0.06em] uppercase text-blue-dark mb-1.5">

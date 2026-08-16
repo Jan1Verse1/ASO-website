@@ -1,23 +1,24 @@
 export const services = [
   {
-    title: 'Estate Surveying',
+    title: ' Sales/Letting/Purchase of Property: '
+   ,
     summary:
-      'General practice estate surveying covering property inspection, documentation, and professional advisory across residential, commercial, and industrial assets.',
+      'Comprehensive real estate services encompassing property sales, leasing, and property management, including property inspections, tenancy administration, lease documentation, asset management, and professional advisory services across residential, commercial, industrial, and mixed-use properties.',
   },
   {
-    title: 'Property Valuation',
+    title: 'Asset Valuation:',
     summary:
-      'Independent, defensible valuations for mortgage, insurance, taxation, litigation, and investment purposes, prepared to professional and regulatory standards.',
+      'Independent, accurate, and professionally prepared valuations of real estate and other assets for mortgage, insurance, financial reporting, taxation, litigation, acquisition, disposal, and investment purposes, in compliance with applicable professional and regulatory standards.',
   },
   {
-    title: 'Facility Management',
+    title: 'Facility Management: ',
     summary:
-      'End-to-end oversight of building operations, ensuring functionality, safety, and efficiency, with particular strength in commercial and industrial properties.',
+      'Comprehensive management of building operations and support services to ensure optimal functionality, safety, regulatory compliance, cost efficiency, and asset sustainability across commercial, residential, and industrial properties.',
   },
   {
-    title: 'Investment Advisory',
+    title: 'Investment Advisory:',
     summary:
-      'Guidance through critical decisions on acquiring, leasing, and managing real estate assets, helping clients build and protect long-term property value.',
+      'Strategic real estate investment advisory services, providing expert guidance on property acquisition, leasing, portfolio management, and investment decisions to maximize returns and preserve long-term asset value.',
   },
 ]
 
