@@ -85,9 +85,7 @@ ASO Consulting is a firm of Estate Surveyors and Valuers dedicated to delivering
             </h2>
             <p className="text-text-muted text-base mb-7">
               With expertise spanning general practice, property valuation, facility
-              management, and investment advisory, Abdul Samuel has built ASO on a foundation
-              of professional discipline and client-first thinking while being mentored by
-              FNIVS, RSV Adefila Kola of Adefila &amp; Partners.
+              management, and investment advisory, Abdul Samuel has built ASO on professional discipline and a client-first philosophy, shaped by nearly two decades of mentorship under FNIVS, RSV Adefila Kola of Adefila & Partners.
             </p>
             <Link
               to="/about"
