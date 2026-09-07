@@ -31,8 +31,7 @@ function Contact() {
           </span>
           <h1 className="text-white text-[clamp(32px,4vw,44px)] mb-3">Let's talk about your property</h1>
           <p className="text-[#c7c8d3] text-[17px] max-w-[620px] m-0">
-            Reach out for valuation, management, or advisory enquiries. Contact details below
-            are placeholders — update with the firm's real information.
+            Reach out for valuation, management, or advisory enquiries.
           </p>
         </div>
       </section>
